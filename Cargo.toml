@@ -12,7 +12,7 @@ documentation = "https://docs.rs/crate/pythonize/"
 
 [dependencies]
 serde = { version = "1.0", default-features = false, features = ["std"] }
-pyo3 = { version = "0.13", default-features = false }
+pyo3 = { git = "https://github.com/PyO3/pyo3", rev = "021505401275cfe4065ff87c8e713f93c0f2f9d7", default-feautres = false }
 
 [dev-dependencies]
 serde = { version = "1.0", default-features = false, features = ["derive"] }
